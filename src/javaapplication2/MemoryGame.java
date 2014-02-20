@@ -47,6 +47,13 @@ public class MemoryGame {
        col1=cardChoice%4;
        board[row1][col1].setShowingStatus();
        
+       /*System.out.println("Enter the number on the card.");
+       System.out.print("Second Card Choice?>");
+       cardChoice =getInputAsInt();
+       row2=cardChoice/4 ;
+       col2=cardChoice%4;
+       board[row2][col2].setShowingStatus();*/
+       
        System.out.print('\u000C'); // Clear the screen
        printCells();
        // check the card to see if the "cards" match
@@ -68,6 +75,7 @@ public class MemoryGame {
      }
    }
    }
+   
    public void printCells()
    {
        Card aCard;
@@ -83,11 +91,13 @@ public class MemoryGame {
        }
            
     }
+   // Eva Individual assignment.
 
 public void shuffle()
 {
+   
      
-for (int a=0; a<words.length;a++);
+for(int a=0; a<words.length;a++)
 {
     int pos = r.nextInt(words.length);
     String temp = words[a];

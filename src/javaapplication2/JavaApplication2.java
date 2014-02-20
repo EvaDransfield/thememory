@@ -18,8 +18,11 @@ public class JavaApplication2 {
     public static void main(String[] args) {
       Card cardBoardd= new Card("jnj",1);
       cardBoardd.showCard();
+     // cardBoardd.setShowingStatus();
       MemoryGame gameBooard= new MemoryGame();
       gameBooard.playGame();
+      gameBooard.setCells();
+      gameBooard.printCells();
         // TODO code application logic here
     }
     

@@ -46,7 +46,7 @@ package javaapplication2;
         showing=false;
         
         else 
-        showing = true;
+       showing = true;
 
     }
     
