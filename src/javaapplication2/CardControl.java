@@ -47,12 +47,12 @@ public class CardControl {
        col1=cardChoice%4;
        board[row1][col1].setShowingStatus();
        
-       /*System.out.println("Enter the number on the card.");
+      // System.out.println("Enter the number on the card.");
        System.out.print("Second CardView Choice?>");
        cardChoice =getInputAsInt();
        row2=cardChoice/4 ;
        col2=cardChoice%4;
-       board[row2][col2].setShowingStatus();*/
+       board[row2][col2].setShowingStatus();
        
        System.out.print('\u000C'); // Clear the screen
        printCells();
