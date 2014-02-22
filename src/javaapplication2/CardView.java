@@ -11,7 +11,7 @@ package javaapplication2;
  * @author Mpianatra
  */
 
-    public class Card {
+    public class CardView {
     boolean showing;// true of false if the hiden card is showing
     String back; // the hiden symbol at the back of the card
     int front; //The font of the card 
@@ -20,7 +20,7 @@ package javaapplication2;
     
     
     // constractor 
-    public Card(String theBack, int theFront)
+    public CardView(String theBack, int theFront)
     {
         showing=false; // hidden symbole showing the back
         back=theBack;
@@ -28,7 +28,7 @@ package javaapplication2;
     }
     //private final MemoryGame cardControll = new MemoryGame(); 
 
-   // Card() {
+   // CardView() {
     //    throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
    // }
    

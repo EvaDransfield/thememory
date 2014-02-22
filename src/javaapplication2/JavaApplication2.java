@@ -16,10 +16,10 @@ public class JavaApplication2 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-      Card cardBoardd= new Card("jnj",1);
+      CardView cardBoardd= new CardView("jnj",1);
       cardBoardd.showCard();
      // cardBoardd.setShowingStatus();
-      MemoryGame gameBooard= new MemoryGame();
+      CardControl gameBooard= new CardControl();
       gameBooard.playGame();
       gameBooard.setCells();
       gameBooard.printCells();
