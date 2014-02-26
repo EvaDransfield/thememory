@@ -21,8 +21,8 @@ public class Game {
     public static final String EXIT = "EXIT";
     public static final String PLAYING = "PLAYING"; 
     public static final String QUIT = "QUIT"; 
-    public static final String ONE_PLAYER = "ONE_PLAYER";
-    public static final String TWO_PLAYER = "TWO_PLAYER";
+   // public static final String ONE_PLAYER = "ONE_PLAYER";
+    //public static final String TWO_PLAYER = "TWO_PLAYER";
     
     
     
