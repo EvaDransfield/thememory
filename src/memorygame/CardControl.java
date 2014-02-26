@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package javaapplication2;
+package memorygame;
 
 import java.util.Random;
 import java.util.Scanner;
