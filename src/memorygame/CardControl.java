@@ -27,9 +27,10 @@ public class CardControl {
        r=new Random();
        reader =new Scanner(System.in);
        board=new CardView[4][4];// create a 4x4 matrix that can hold CardView Objects
-       shuffle();
+      shuffle();
        setCells ();
-       printCells();
+           
+     printCells();
        playGame();
    }
    public void playGame()
@@ -46,6 +47,9 @@ public class CardControl {
        row1=cardChoice/4 ;
        col1=cardChoice%4;
        board[row1][col1].setShowingStatus();
+        System.out.print('\u000C'); // Clear the screen
+       printCells();
+      
        
       // System.out.println("Enter the number on the card.");
        System.out.print("Second CardView Choice?>");
@@ -120,4 +124,5 @@ public String getInputAsString(){
 }           
     
 }
-
+ /* we need to crate a loop so player can play the game 
+until quit not just play twice
