@@ -57,15 +57,6 @@ public class MainMenuControl {
     }
     
     
-   /* public void displayStatistics(){
-        Player player = new Player();
-        player.getTotalPoints();
-    }
-    public void displayCard(){
-    CardView cardView=new CardView();
-    cardView.showCard();
-    }
-       
-}*/
+   
     
 }
